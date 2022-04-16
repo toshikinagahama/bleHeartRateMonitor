@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71C16E36B08238066AC42DE0 /* Pods_bleHeartRateMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE93363A55C95D22E7131685 /* Pods_bleHeartRateMonitor.framework */; };
+		B50E81343F99F80B3F620EA9 /* Pods_bleHeartRateMonitor_bleHeartRateMonitorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E530F4DCA416F51A73BC379B /* Pods_bleHeartRateMonitor_bleHeartRateMonitorUITests.framework */; };
 		BC5AAADB26BEC571001FC98E /* bleHeartRateMonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5AAADA26BEC571001FC98E /* bleHeartRateMonitorApp.swift */; };
 		BC5AAADD26BEC571001FC98E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5AAADC26BEC571001FC98E /* ContentView.swift */; };
 		BC5AAADF26BEC572001FC98E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5AAADE26BEC572001FC98E /* Assets.xcassets */; };
 		BC5AAAE226BEC572001FC98E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5AAAE126BEC572001FC98E /* Preview Assets.xcassets */; };
 		BC5AAAEC26BEC573001FC98E /* bleHeartRateMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5AAAEB26BEC573001FC98E /* bleHeartRateMonitorTests.swift */; };
 		BC5AAAF626BEC573001FC98E /* bleHeartRateMonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5AAAF526BEC573001FC98E /* bleHeartRateMonitorUITests.swift */; };
+		BC5AAB0326BEC5DF001FC98E /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5AAB0226BEC5DF001FC98E /* BLEManager.swift */; };
+		FD71086AD81C80B81855CB98 /* Pods_bleHeartRateMonitorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA858EF118D585200E600C1E /* Pods_bleHeartRateMonitorTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0946474958EECD82636E2721 /* Pods-bleHeartRateMonitor-bleHeartRateMonitorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bleHeartRateMonitor-bleHeartRateMonitorUITests.release.xcconfig"; path = "Target Support Files/Pods-bleHeartRateMonitor-bleHeartRateMonitorUITests/Pods-bleHeartRateMonitor-bleHeartRateMonitorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		66F60821578C510673AEAA9C /* Pods-bleHeartRateMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bleHeartRateMonitor.debug.xcconfig"; path = "Target Support Files/Pods-bleHeartRateMonitor/Pods-bleHeartRateMonitor.debug.xcconfig"; sourceTree = "<group>"; };
+		6DFAB65DB704277F69893B73 /* Pods-bleHeartRateMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bleHeartRateMonitor.release.xcconfig"; path = "Target Support Files/Pods-bleHeartRateMonitor/Pods-bleHeartRateMonitor.release.xcconfig"; sourceTree = "<group>"; };
+		A58070E86BCF7E718202DAEA /* Pods-bleHeartRateMonitorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bleHeartRateMonitorTests.release.xcconfig"; path = "Target Support Files/Pods-bleHeartRateMonitorTests/Pods-bleHeartRateMonitorTests.release.xcconfig"; sourceTree = "<group>"; };
+		B6A2FF22D692445633D3EE3A /* Pods-bleHeartRateMonitorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bleHeartRateMonitorTests.debug.xcconfig"; path = "Target Support Files/Pods-bleHeartRateMonitorTests/Pods-bleHeartRateMonitorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA858EF118D585200E600C1E /* Pods_bleHeartRateMonitorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bleHeartRateMonitorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5AAAD726BEC571001FC98E /* bleHeartRateMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bleHeartRateMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5AAADA26BEC571001FC98E /* bleHeartRateMonitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bleHeartRateMonitorApp.swift; sourceTree = "<group>"; };
 		BC5AAADC26BEC571001FC98E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +52,12 @@
 		BC5AAAEB26BEC573001FC98E /* bleHeartRateMonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bleHeartRateMonitorTests.swift; sourceTree = "<group>"; };
 		BC5AAAF126BEC573001FC98E /* bleHeartRateMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bleHeartRateMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5AAAF526BEC573001FC98E /* bleHeartRateMonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bleHeartRateMonitorUITests.swift; sourceTree = "<group>"; };
+		BC5AAB0226BEC5DF001FC98E /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		BCE94CAC26BECDE9004F6C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BCE94CAD26C1140B004F6C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE93363A55C95D22E7131685 /* Pods_bleHeartRateMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bleHeartRateMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB15CB46CB71D913D34B2B66 /* Pods-bleHeartRateMonitor-bleHeartRateMonitorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bleHeartRateMonitor-bleHeartRateMonitorUITests.debug.xcconfig"; path = "Target Support Files/Pods-bleHeartRateMonitor-bleHeartRateMonitorUITests/Pods-bleHeartRateMonitor-bleHeartRateMonitorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E530F4DCA416F51A73BC379B /* Pods_bleHeartRateMonitor_bleHeartRateMonitorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bleHeartRateMonitor_bleHeartRateMonitorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71C16E36B08238066AC42DE0 /* Pods_bleHeartRateMonitor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD71086AD81C80B81855CB98 /* Pods_bleHeartRateMonitorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,19 +81,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B50E81343F99F80B3F620EA9 /* Pods_bleHeartRateMonitor_bleHeartRateMonitorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B7E8FE807E6089F610F98D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66F60821578C510673AEAA9C /* Pods-bleHeartRateMonitor.debug.xcconfig */,
+				6DFAB65DB704277F69893B73 /* Pods-bleHeartRateMonitor.release.xcconfig */,
+				DB15CB46CB71D913D34B2B66 /* Pods-bleHeartRateMonitor-bleHeartRateMonitorUITests.debug.xcconfig */,
+				0946474958EECD82636E2721 /* Pods-bleHeartRateMonitor-bleHeartRateMonitorUITests.release.xcconfig */,
+				B6A2FF22D692445633D3EE3A /* Pods-bleHeartRateMonitorTests.debug.xcconfig */,
+				A58070E86BCF7E718202DAEA /* Pods-bleHeartRateMonitorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		73C593568623E991396A9DED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE93363A55C95D22E7131685 /* Pods_bleHeartRateMonitor.framework */,
+				E530F4DCA416F51A73BC379B /* Pods_bleHeartRateMonitor_bleHeartRateMonitorUITests.framework */,
+				BA858EF118D585200E600C1E /* Pods_bleHeartRateMonitorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC5AAACE26BEC571001FC98E = {
 			isa = PBXGroup;
 			children = (
+				BCE94CAD26C1140B004F6C28 /* Info.plist */,
 				BC5AAAD926BEC571001FC98E /* bleHeartRateMonitor */,
 				BC5AAAEA26BEC573001FC98E /* bleHeartRateMonitorTests */,
 				BC5AAAF426BEC573001FC98E /* bleHeartRateMonitorUITests */,
 				BC5AAAD826BEC571001FC98E /* Products */,
+				5B7E8FE807E6089F610F98D4 /* Pods */,
+				73C593568623E991396A9DED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,10 +137,12 @@
 		BC5AAAD926BEC571001FC98E /* bleHeartRateMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				BCE94CAC26BECDE9004F6C28 /* Info.plist */,
 				BC5AAADA26BEC571001FC98E /* bleHeartRateMonitorApp.swift */,
 				BC5AAADC26BEC571001FC98E /* ContentView.swift */,
 				BC5AAADE26BEC572001FC98E /* Assets.xcassets */,
 				BC5AAAE026BEC572001FC98E /* Preview Content */,
+				BC5AAB0226BEC5DF001FC98E /* BLEManager.swift */,
 			);
 			path = bleHeartRateMonitor;
 			sourceTree = "<group>";
@@ -131,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC5AAAF926BEC573001FC98E /* Build configuration list for PBXNativeTarget "bleHeartRateMonitor" */;
 			buildPhases = (
+				CB06EEA8884AF60CCFA58743 /* [CP] Check Pods Manifest.lock */,
 				BC5AAAD326BEC571001FC98E /* Sources */,
 				BC5AAAD426BEC571001FC98E /* Frameworks */,
 				BC5AAAD526BEC571001FC98E /* Resources */,
+				1DB4ABC42783D593BD34A68E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC5AAAFC26BEC573001FC98E /* Build configuration list for PBXNativeTarget "bleHeartRateMonitorTests" */;
 			buildPhases = (
+				C2B88827E2C0EC022AAF1B07 /* [CP] Check Pods Manifest.lock */,
 				BC5AAAE326BEC573001FC98E /* Sources */,
 				BC5AAAE426BEC573001FC98E /* Frameworks */,
 				BC5AAAE526BEC573001FC98E /* Resources */,
@@ -166,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC5AAAFF26BEC573001FC98E /* Build configuration list for PBXNativeTarget "bleHeartRateMonitorUITests" */;
 			buildPhases = (
+				133A46E3E462DD3DD78FDCD5 /* [CP] Check Pods Manifest.lock */,
 				BC5AAAED26BEC573001FC98E /* Sources */,
 				BC5AAAEE26BEC573001FC98E /* Frameworks */,
 				BC5AAAEF26BEC573001FC98E /* Resources */,
+				62189A5E32EB495A9A227A9F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,12 +301,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		133A46E3E462DD3DD78FDCD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bleHeartRateMonitor-bleHeartRateMonitorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DB4ABC42783D593BD34A68E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bleHeartRateMonitor/Pods-bleHeartRateMonitor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bleHeartRateMonitor/Pods-bleHeartRateMonitor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bleHeartRateMonitor/Pods-bleHeartRateMonitor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62189A5E32EB495A9A227A9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bleHeartRateMonitor-bleHeartRateMonitorUITests/Pods-bleHeartRateMonitor-bleHeartRateMonitorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bleHeartRateMonitor-bleHeartRateMonitorUITests/Pods-bleHeartRateMonitor-bleHeartRateMonitorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bleHeartRateMonitor-bleHeartRateMonitorUITests/Pods-bleHeartRateMonitor-bleHeartRateMonitorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2B88827E2C0EC022AAF1B07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bleHeartRateMonitorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB06EEA8884AF60CCFA58743 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bleHeartRateMonitor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC5AAAD326BEC571001FC98E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BC5AAADD26BEC571001FC98E /* ContentView.swift in Sources */,
+				BC5AAB0326BEC5DF001FC98E /* BLEManager.swift in Sources */,
 				BC5AAADB26BEC571001FC98E /* bleHeartRateMonitorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +498,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
+				"INFOPLIST_FILE[sdk=*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -397,6 +555,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -409,6 +568,7 @@
 		};
 		BC5AAAFA26BEC573001FC98E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F60821578C510673AEAA9C /* Pods-bleHeartRateMonitor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -418,6 +578,7 @@
 				DEVELOPMENT_TEAM = 73DAMN5444;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = bleHeartRateMonitor/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,7 +589,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.plegineer.bleHeartRateMonitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -439,6 +600,7 @@
 		};
 		BC5AAAFB26BEC573001FC98E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DFAB65DB704277F69893B73 /* Pods-bleHeartRateMonitor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +610,7 @@
 				DEVELOPMENT_TEAM = 73DAMN5444;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = bleHeartRateMonitor/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -458,7 +621,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.plegineer.bleHeartRateMonitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -469,6 +632,7 @@
 		};
 		BC5AAAFD26BEC573001FC98E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6A2FF22D692445633D3EE3A /* Pods-bleHeartRateMonitorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,7 +646,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.plegineer.bleHeartRateMonitorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -494,6 +658,7 @@
 		};
 		BC5AAAFE26BEC573001FC98E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A58070E86BCF7E718202DAEA /* Pods-bleHeartRateMonitorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,7 +672,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.plegineer.bleHeartRateMonitorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -519,6 +684,7 @@
 		};
 		BC5AAB0026BEC573001FC98E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB15CB46CB71D913D34B2B66 /* Pods-bleHeartRateMonitor-bleHeartRateMonitorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,7 +696,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.plegineer.bleHeartRateMonitorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -542,6 +708,7 @@
 		};
 		BC5AAB0126BEC573001FC98E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0946474958EECD82636E2721 /* Pods-bleHeartRateMonitor-bleHeartRateMonitorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -553,7 +720,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.plegineer.bleHeartRateMonitorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
